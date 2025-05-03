@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Biodata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #87ebb6,#87c0eb);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.51);
+      color: white;
+    }
+    header:hover {
+      box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.9);
+      transition: 0.4s ease-in-out;
+    }
+    h1 {
+     animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes headerBackground {
+      0% { background: rgba(183, 0, 255, 0.8); }
+      50% { background: rgba(0, 145, 255, 0.51); }
+      100% { background: rgba(183, 0, 255, 0.8); }
+    }
+    header {
+      animation: headerBackground 8s infinite alternate ease-in-out;
+    }
+    nav {
+      margin-top: 10px;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      transition: 0.3s ease-in-out;
+      text-decoration: none;
+      color: white;
+      background: #ff0000;
+      padding: 12px 24px;
+      margin: 8px;
+      display: inline-block;
+      border-radius: 25px;
+      transition: 0.3s ease-in-out;
+      font-weight: bold;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    }
+    nav a:hover {
+      transform: translateY(-5px);
+      transition: 0.3s ease-in-out;
+    }
+    .profile {
+      max-width: 600px;
+      margin: 30px auto;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background: #ffffff60;
+      border-radius: 10px;
+      box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 20px 0;
+      object-fit: cover;
+      margin-right: 20px;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    }
+    .info {
+      flex-grow: 1;
+    }
+    .info table {
+      width: 100%;
+      border-spacing: 10px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .extra-info {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff60;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .extra-info table {
+      border-radius: 15px;
+      overflow: hidden;
+      padding: 10px;
+      box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+      border-spacing: 8px;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 70%;
+      background-color: #fff;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+
+    }
+    th {
+      text-align: left;
+      padding-right: 10px;
+      font-weight: bold;
+    }
+    td {
+      text-align: left;
+      font-weight: 400;
+      color: #555;
+    }
+    th, td {
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🦔 My Biodata 🦔</h1>
+    <nav>
+      <a href="index.html" style="color: white; text-decoration: none;">🏡 Home</a>
+    </nav>
+  </header>
+  <main>
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile Photo">
+      <div class="info">
+        <table>
+          <tr><th>🦔 Name:</th><td>Nurul Aqilah Khairuni</td></tr>
+          <tr><th>🎂 Date of Birth:</th><td>16 October 2003</td></tr>
+          <tr><th>📅 Age:</th><td>22 Years</td></tr>
+        </table>
+      </div>
+    </div>
+    <div class="extra-info">
+      <table>
+        <tr><th>🕌 Religion:</th><td>Islam</td></tr>
+        <tr><th>👨🏻‍👩🏻‍👧🏻 Race:</th><td>Melayu</td></tr>
+        <tr><th>🏡 Address:</th><td>Bukit Gambir, Tangkak, Johor</td></tr>
+        <tr><th>📞 Mobile Phone:</th><td>014-3180919</td></tr>
+        <tr><th>📧 Email:</th><td>aqilahkz2003@gmail.com</td></tr>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 My Biodata | Created by Aqilah🦔</p>
+  </footer>
+</body>
+</html>
